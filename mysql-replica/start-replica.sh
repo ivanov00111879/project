@@ -3,8 +3,8 @@
 MASTER_HOST="192.168.0.117"
 REPL_USER="repl"
 REPL_PASS="oTUSlave#2020"
-LOG_FILE="mysql-bin.000002"
-LOG_POS=198
+LOG_FILE="mysql-bin.000001"
+LOG_POS=872
 
 # Проверка на права root
 if [ "$EUID" -ne 0 ]; then
