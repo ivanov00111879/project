@@ -28,7 +28,7 @@ fi
 # Копирование файла
 if [ -f "$SOURCE1" ]; then
     cp "$SOURCE1" "$DEST1"
-    chown root:grafana "$DEST1"
+    chown grafana:grafana "$DEST1"
     chmod 640 "$DEST1"
     echo "Configuration .ini completed"
 else
