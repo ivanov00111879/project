@@ -28,7 +28,7 @@ mysql-master
 2. Запускаем скрипт установки mysql: sudo bash /home/debian/project/mysql-master/install-mysql.sh
 3. Запускаем скрипт настройки mysql: sudo bash /home/debian/project/mysql-master/set-mysql.sh
 
-8. Запускаем скрипт восстановления базы: sudo bash /home/debian/project/mysql-replica/restore.sh /home/debian/project/mysql-replica/mysql_backup_20260501_110407
+    Запускаем скрипт восстановления базы: sudo bash /home/debian/project/mysql-replica/restore.sh /home/debian/project/mysql-replica/mysql_backup_20260501_110407
 
 
 mysql-replica
